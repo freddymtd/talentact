@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
     <title>Listar Banco</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Form de Dados</title>
+    <script src="https://kit.fontawesome.com/508e2598fb.js"></script>
 </head>
 
 <body>
@@ -25,6 +26,7 @@
                         <th>CheckBoxValue</th>
                         <th>RadioValue</th>
                         <th>ComboValue</th>
+                        <th>Ação</th>
                 </thead>
                 <tbody>
                     <tr>
@@ -53,6 +55,10 @@
                         <td><?php echo $checkBox ?></td>
                         <td><?php echo $radio ?></td>
                         <td><?php echo $combo ?></td>
+                        <td><a class="btn-sm btn-warning" href="editar_dado.php?id=<?php echo $id ?>"><i class="far fa-edit"></i>&nbsp;Editar</a>
+                        <a class="btn-sm btn-danger" href="deletar_dado.php?id=<?php echo $id ?>"><i class="far fa-trash-alt"></i>&nbsp;Deletar</a>
+                    </td>
+                        
                     </tr>
                     <?php } ?>
                 </tbody>

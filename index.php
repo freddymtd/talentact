@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br  ">
+<html lang="pt-br ">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Form de Dados</title>
 </head>
-
-<style type="text/css">
-
-</style>
 
 <body>
     <section class="container">
